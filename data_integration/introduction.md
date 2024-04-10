@@ -59,8 +59,3 @@ The data integration function in different deployments requires different levels
 
 - It is recommended to access data sources through an internal network. Therefore, before creating, you need to configure [VPC peering](../deployments/vpc_peering.md) first and also open the security group.
 - If you need to access it through the public network, you can enable a [NAT gateway](../vas/nat-gateway.md).
-
-**BYOC Deployment**
-
-- It is recommended to access data sources through an internal network to improve network security and performance. Before creating, you need to configure a peering connection between the VPC where the resources are located and the VPC where the BYOC deployment is located in the public cloud console, and also open the relevant security group. For related steps, please refer to the [Create VPC Peering Connections](../deployments/byoc_vpc_peering.md) section.
-- If you need to access resources through the public network, please configure a NAT gateway for the VPC where the BYOC deployment is located in your public cloud console.
