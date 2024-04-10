@@ -1,1 +1,0 @@
-# Connect via Scala SDK
